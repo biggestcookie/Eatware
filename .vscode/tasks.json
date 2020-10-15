@@ -1,0 +1,36 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "Pip Install",
+            "detail": "pip install -r requirements.txt",
+            "type": "shell",
+            "problemMatcher": [],
+            "command": "${config:python.pythonPath}",
+            "args": [
+                "-m",
+                "pip",
+                "install",
+                "-r",
+                "requirements.txt"
+            ],
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            }
+        },
+        {
+            "label": "Uvicorn: Start API",
+            "detail": "uvicorn main:app --reload",
+            "type": "shell",
+            "problemMatcher": [],
+            "command": "${config:python.pythonPath}",
+            "args": [
+                "-m",
+                "uvicorn",
+                "main:app",
+                "--reload"
+            ]
+        }
+    ]
+}

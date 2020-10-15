@@ -1,0 +1,7 @@
+aiohttp
+black
+fastapi
+flake8
+python-multipart
+uvicorn
+ujson
