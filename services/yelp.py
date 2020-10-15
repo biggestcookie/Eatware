@@ -5,8 +5,9 @@ import textwrap
 from typing import Any, List
 
 from aiohttp import ClientSession
-from core.voting import EMOJIS
 from models.slack import Block, BlockText
+
+from services.slack import EMOJIS
 
 API_BASE_URL = "https://api.yelp.com/v3"
 API_SEARCH_URL = f"{API_BASE_URL}/businesses/search"

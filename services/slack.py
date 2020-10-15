@@ -17,6 +17,7 @@ API_SEND_MSG_URL = f"{API_BASE_URL}/chat.postMessage"
 TOKEN = os.getenv("slack_token")
 HEADERS = {"authorization": f"Bearer {TOKEN}"}
 DEFAULT_PARAMS = {"token": TOKEN}
+EMOJIS = {1: "one", 2: "two", 3: "three", 4: "four"}
 
 
 async def get_last_bot_message(session: ClientSession):

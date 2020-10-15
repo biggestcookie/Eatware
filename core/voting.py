@@ -2,12 +2,9 @@ import time
 from typing import Any, List
 
 from aiohttp.client import ClientSession
-
 from models.slack import SlackHookResponse
-from services.slack import react_to_message, send_message
+from services.slack import EMOJIS, react_to_message, send_message
 from services.yelp import yelp_restaurants_to_blocks
-
-EMOJIS = {1: "one", 2: "two", 3: "three", 4: "four"}
 
 
 async def send_vote_message(
