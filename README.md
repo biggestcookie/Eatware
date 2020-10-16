@@ -1,6 +1,6 @@
 # Eatware
 
-[View our article explanation on this bot, here!](https://medium.com/@biggestcookie/67288667e6cd)
+[View our article explanation on this bot, here!](https://medium.com/@biggestcookie/eatware-creation-of-a-flexible-modular-bot-with-dialogflow-and-fastapi-a11b19fa8b25)
 
 Eatware is a Slackbot that helps you and your team find and vote on nearby places to eat.
 Developed for the NCR Hackathon 2020, it uses [Dialogflow](https://cloud.google.com/dialogflow) to receive requests from Slack and process user intents and requirements from natural language.
