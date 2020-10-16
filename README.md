@@ -8,7 +8,7 @@ This repository is the API that Dialogflow makes requests to once parameters are
 
 Developed by [@tsyoo](https://github.com/tsyoohub), [@orangegarage](https://github.com/orangegarage), and [@isdoubleac](https://github.com/isdoubleac).
 
-![Slack preview](https://i.imgur.com/uQYoYXn.png)
+![Slack preview](https://i.imgur.com/sY8Y77t.png)
 
 ## Requirements
 
