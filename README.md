@@ -10,6 +10,7 @@ Developed by [@tsyoo](https://github.com/tsyoohub), [@orangegarage](https://gith
 
 ![Slack preview](https://i.imgur.com/sY8Y77t.png)
 
+
 ## Requirements
 
 [Python 3.7+](https://www.python.org/downloads/)
